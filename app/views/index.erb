@@ -1,1 +1,31 @@
-<h1> This is a view </h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me Quiz</title>
+    </head>
+    
+    <body>
+        <h1>How Well Do You Know Me? - Meghana Gorti</h1>
+        <form method="POST" action="/results">
+            
+            <h2>What's my favorite dog breed?</h2>
+                <input type="radio" name="dog_breed" value="0">pugs<br>
+                <input type="radio" name="dog_breed" value="5">Shiba<br>
+                <input type="radio" name="dog_breed" value="10">Corgi<br>
+                
+            <h2>How do I feel about tacos?</h2>
+                <input type="radio" name="taco_love" value="0">Ew<br>
+                <input type="radio" name="taco_love" value="5">They're okay<br>
+                <input type="radio" name="taco_love" value="10">Love!!<br>
+                
+            <h2>Do I like new Taylor or old Taylor>?</h2>
+                <input type="radio" name="taylor" value="10">Both<br>
+                <input type="radio" name="taylor" value="5">New Taylor<br>
+                <input type="radio" name="taylor" value="5">Old Taylor<br>
+                <input type="radio" name="taylor" value="10">Neither<br>
+            <br>
+            <button type="submit">Check how well you know me!!!</button>
+            
+        </form>
+    </body>
+</html>
